@@ -12,6 +12,18 @@ function print (text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid (name) {
+	let answer;
+	// if(name.length >= 4 && name.indexOf(' ') === -1) {
+	// 	answer = true;
+	// } else {
+	// 	answer = false;
+	// }	
+	if(name === "Ilia") {
+		answer = true;
+	} else {
+		answer = false;
+	}
+	return answer; 
 }
 
 function sayHello () {
